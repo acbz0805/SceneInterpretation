@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterpretationActivity">
+
+    <LinearLayout
+        android:id="@+id/interpretScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#040b32"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="INTERPRETING MODE"
+            android:textAlignment="center"
+            android:textColor="#30bf20"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:background="#ffe733" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="145dp"
+            android:background="#2c1204"
+            android:fontFamily="sans-serif-condensed"
+            android:text=" - TAB TO START - "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#e331e0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dp"
+            android:background="#e1b2f8"
+            android:fontFamily="sans-serif-condensed"
+            android:text="   Interpretation Process Might   \nTake A Few Minutes\n---\nPlease Wait And\nRest For A While"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>
